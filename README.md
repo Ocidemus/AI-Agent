@@ -68,7 +68,7 @@ Read and interpret code logic
 Use tool calls to retrieve and analyze the relevant functions
 
 
-🧪 Features
+# 🧪 Features
 ✅ Agentic loop with up to 20 iterations
 
 ✅ Gemini 1.5 / 2.0 support
