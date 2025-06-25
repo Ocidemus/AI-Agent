@@ -39,7 +39,7 @@ Set your API key:
 ```bash
 export GOOGLE_API_KEY="your-key-here"
 ```
-▶️ Usage
+#▶️ Usage
 Ask questions about the codebase like:
 
 ```bash
@@ -53,7 +53,7 @@ Expected output:
 Final response:
 <agent explains logic here...>
 ```
-🧪 Example Project Included
+#🧪 Example Project Included
 This repo includes an example project in the calculator/ folder that the agent can analyze and debug.
 
 You can try it out immediately with:
@@ -80,11 +80,18 @@ Use tool calls to retrieve and analyze the relevant functions
 📂 Project Structure
 ```bash
 .
-├── main.py                  # Entry point
-├── tools/                   # File system functions (read, write, list, run)
-├── agent/                   # Agent loop + Gemini interaction
-├── config.py                # API config and system prompt
-├── calculator/              # Sample project to inspect/fix
+├── main.py                  # Entry point for the agent
+├── tools/                   # Functions: read/write files, run code, list dirs
+├── agent/                   # Core agent logic and feedback loop
+├── config.py                # System prompts and setup
+├── calculator/              # 🔹 Example Python project for testing the agent
+│   ├── main.py
+│   ├── pkg/
+│   │   ├── calculator.py
+│   │   ├── render.py
+│   │   └── morelorem.txt
+│   ├── tests.py
+│   └── README.md
 └── README.md
 ```
 🛠️ Built With
