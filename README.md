@@ -53,6 +53,20 @@ Expected output:
 Final response:
 <agent explains logic here...>
 ```
+🧪 Example Project Included
+This repo includes an example project in the calculator/ folder that the agent can analyze and debug.
+
+You can try it out immediately with:
+
+```bash
+python main.py "how does the calculator render results to the console?"
+```
+This will trigger the agent to:
+
+Explore files in the calculator/ project
+Read and interpret code logic
+Use tool calls to retrieve and analyze the relevant functions
+
 
 🧪 Features
 ✅ Agentic loop with up to 20 iterations
