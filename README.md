@@ -94,7 +94,7 @@ Use tool calls to retrieve and analyze the relevant functions
 │   └── README.md
 └── README.md
 ```
-#🛠️ Built With
+# 🛠️ Built With
 
 Google Gemini API
 Python 3
