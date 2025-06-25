@@ -1,4 +1,4 @@
-# 🧠 Agentic Code Editor with Google Gemini
+# Agentic Code Editor with Google Gemini
 
 A toy code editor agent, inspired by Claude Code and Cursor’s agent mode. This project walks through how to build an **LLM-powered code assistant** using the **free Google Gemini API**, Python function calling, and feedback loops.
 
@@ -27,8 +27,8 @@ All through natural language prompts and Gemini’s tool-calling capabilities.
 ### 🔧 Installation
 
 ```bash
-git clone https://github.com/yourusername/agentic-code-editor.git
-cd agentic-code-editor
+git clone https://github.com/yourusername/AI-Agent.git
+cd AI-Agent.git
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
