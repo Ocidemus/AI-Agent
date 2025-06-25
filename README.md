@@ -94,12 +94,12 @@ Use tool calls to retrieve and analyze the relevant functions
 │   └── README.md
 └── README.md
 ```
-# 🛠️ Built With
+## 🛠️ Built With
 
-Google Gemini API
-Python 3
-Function calling (types.FunctionDeclaration, Part.function_call)
-Feedback loop design pattern
+- [Google Gemini API](https://ai.google.dev/)
+- Python 3
+- Function calling (`types.FunctionDeclaration`, `Part.function_call`)
+- Feedback loop design pattern
 
 📄 License
 MIT License © 2025 ocidmeus
