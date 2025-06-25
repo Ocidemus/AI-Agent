@@ -39,7 +39,7 @@ Set your API key:
 ```bash
 export GOOGLE_API_KEY="your-key-here"
 ```
-## ▶️ Usage
+### ▶️ Usage
 Ask questions about the codebase like:
 
 ```bash
@@ -53,7 +53,7 @@ Expected output:
 Final response:
 <agent explains logic here...>
 ```
-## 🧪 Example Project Included
+### 🧪 Example Project Included
 This repo includes an example project in the calculator/ folder that the agent can analyze and debug.
 
 You can try it out immediately with:
@@ -68,7 +68,7 @@ Read and interpret code logic
 Use tool calls to retrieve and analyze the relevant functions
 
 
-# 🧪 Features
+### 🧪 Features
 ✅ Agentic loop with up to 20 iterations
 
 ✅ Gemini 1.5 / 2.0 support
@@ -94,7 +94,7 @@ Use tool calls to retrieve and analyze the relevant functions
 │   └── README.md
 └── README.md
 ```
-🛠️ Built With
+#🛠️ Built With
 
 Google Gemini API
 Python 3
