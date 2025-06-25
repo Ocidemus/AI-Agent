@@ -39,7 +39,7 @@ Set your API key:
 ```bash
 export GOOGLE_API_KEY="your-key-here"
 ```
-#▶️ Usage
+## ▶️ Usage
 Ask questions about the codebase like:
 
 ```bash
@@ -53,7 +53,7 @@ Expected output:
 Final response:
 <agent explains logic here...>
 ```
-#🧪 Example Project Included
+## 🧪 Example Project Included
 This repo includes an example project in the calculator/ folder that the agent can analyze and debug.
 
 You can try it out immediately with:
