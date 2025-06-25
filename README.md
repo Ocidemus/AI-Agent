@@ -6,22 +6,14 @@ A toy code editor agent, inspired by Claude Code and Cursor’s agent mode. This
 
 ---
 
-## 📚 Chapter Overview
+A toy code editor agent, inspired by Claude Code and Cursor’s agent mode. This project demonstrates how to build an **LLM-powered code assistant** using the **free Google Gemini API**, Python function calling, and feedback loops.
 
-### 1. **LLMs**
-Learn how LLMs process prompts, and how to interact with the Gemini API via the official Python client.
-
-### 2. **Functions**
-Write real functions for file operations, such as:
-- Reading and writing files
-- Listing project contents
-- Running Python scripts
-
-### 3. **Function Calling**
-Enable Gemini to call your tools directly using structured function-calling (via `types.FunctionDeclaration` and `Part.function_call`).
-
-### 4. **Agents**
-Introduce a feedback loop: let the model reason step-by-step, inspect tool results, and iteratively improve code.
+The agent can:
+- Analyze code
+- Detect bugs
+- Modify files
+- Run Python code
+All through natural language prompts and Gemini’s tool-calling capabilities.
 
 ---
 
@@ -82,14 +74,12 @@ Final response:
 └── README.md
 ```
 🛠️ Built With
+
 Google Gemini API
-
 Python 3
-
 Function calling (types.FunctionDeclaration, Part.function_call)
-
 Feedback loop design pattern
 
 📄 License
-MIT License © 2025 Your Name
+MIT License © 2025 ocidmeus
 
