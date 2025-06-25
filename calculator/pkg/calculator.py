@@ -9,7 +9,7 @@ class Calculator:
             "/": lambda a, b: a / b,
         }
         self.precedence = {
-            "+": 1,
+            "+": 3,
             "-": 1,
             "*": 2,
             "/": 2,
